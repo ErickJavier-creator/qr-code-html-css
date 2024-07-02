@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Oufit;
+    src: url(/fonts/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: Oufit-bold;
+    src: url(/fonts/Outfit-Bold.ttf);
+}
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+    background: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'oufit';
+}
+
+
+.container{
+    width: 320px;
+    height: 500px;
+    border-radius: 15px;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 288px;
+    height: 288px;
+    border-radius: 9px;
+}
+
+.container__tittle{
+    text-align: center;
+    font-family: 'Oufit-bold';
+    color: var(--dark-blue);
+    font-size: 17px;
+
+}
+
+p{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 16px;
+    
+}
